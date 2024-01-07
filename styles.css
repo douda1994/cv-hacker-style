@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+}
+
+.terminal {
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: #111;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    color: #00ff00;
+}
+
+.terminal-header {
+    height: 30px;
+    background-color: #444;
+    display: flex;
+}
+
+.btn {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.red {
+    background-color: #ff5f56;
+}
+
+.yellow {
+    background-color: #ffbd2e;
+}
+
+.green {
+    background-color: #27c93f;
+}
+
+.terminal-body {
+    padding: 20px;
+}
+
+.output {
+    color: #00ff00;
+    margin-bottom: 10px;
+}
+
+.cv-output {
+    white-space: pre-wrap;
+}
